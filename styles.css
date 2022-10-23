@@ -1,114 +1,153 @@
+.konteyner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
 .kasa {
-    width: 370px;
-    height: 720px;
-    border-radius: 50px;
-    margin: 25px;
-    display: block;
-    position: relative;
+  width: 370px;
+  height: 720px;
+  border-radius: 50px;
+  margin: 25px;
+  display: block;
+  position: relative;
 }
 
 .arka {
-    background-color: #566154;
-    border: 2px solid #939393;
+  background-color: #566154;
+  border: 2px solid #939393;
 }
 
 .on {
-    background-color: #292929;
+  background-color: black;
 }
 
 .kamera-grubu {
-    background-color: #5e675d;
-    width: 124px;
-    height: 124px;
-    margin-top: 28px;
-    margin-left: 28px;
-    border-radius: 30px;
-    border: 1px solid #3e463c;
-    position: relative;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.337);
+  background-color: #5e675d;
+  width: 124px;
+  height: 124px;
+  margin-top: 28px;
+  margin-left: 28px;
+  border-radius: 30px;
+  border: 1px solid #3e463c;
+  position: relative;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.337);
 }
 
 .kamera {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    background-color: #292929;
-    border: 1px solid #3e463c;
-    border-radius: 28px;
-    margin-top: 6px;
-    margin-left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #292929;
+  border: 1px solid #3e463c;
+  border-radius: 28px;
+  margin-top: 6px;
+  margin-left: 6px;
 }
 
-.lens{
-    width: 20px;
-    height: 20px;
-    background-color: rgb(59, 59, 59);
-    border-radius: 20px;
+.lens {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
 }
 
 .mikrofon {
-    height: 12px;
-    width: 12px;
-    background-color: black;
-    border-radius: 11px;
-    position: absolute;
-    top: 25px;
-    right: 25px;
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  border-radius: 11px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
 
 .lamba {
-    height: 25px;
-    width: 25px;
-    background-color: bisque;
-    border-radius: 35px;
-    position: absolute;
-    top: 55px;
-    right: 16px;
+  height: 25px;
+  width: 25px;
+  background-color: bisque;
+  border-radius: 35px;
+  position: absolute;
+  top: 55px;
+  right: 16px;
 }
 
 .logo {
-    text-align: center;
+  text-align: center;
 }
 
-.logo>img {
-    width: 75px;
-    height: auto;
-    margin-top: 100px;
+.logo > img {
+  width: 75px;
+  height: auto;
+  margin-top: 100px;
 }
-.ana-buton{
-    height: 66px;
-    width: 8px;
-    background-color: #5e675d;
-    position: absolute;
-    left: -3px;
-    
-}
-
-.sessiz-buton{
-    height: 20px;
-    width: 8px;
-    background-color: #5e675d;
-    position: absolute;
-    right: -3px;
-    top: 90px;
+.ana-buton {
+  height: 66px;
+  width: 8px;
+  background-color: #5e675d;
+  position: absolute;
+  left: -3px;
 }
 
-.ses-ac-buton{
-    height: 45px;
-    width: 8px;
-    background-color: #5e675d;
-    position: absolute;
-    top: 130px;
-    right: -3px;
+.sessiz-buton {
+  height: 20px;
+  width: 8px;
+  background-color: #5e675d;
+  position: absolute;
+  right: -3px;
+  top: 90px;
 }
 
-.ses-kis-buton{
-    height: 45px;
-    width: 8px;
-    background-color: #5e675d;
-    position: absolute;
-    top: 190px;
-    right: -3px;
+.ses-ac-buton {
+  height: 45px;
+  width: 8px;
+  background-color: #5e675d;
+  position: absolute;
+  top: 130px;
+  right: -3px;
+}
+
+.ses-kis-buton {
+  height: 45px;
+  width: 8px;
+  background-color: #5e675d;
+  position: absolute;
+  top: 190px;
+  right: -3px;
+}
+
+.ekran{
+    background-color:  white;
+    margin: 20px;
+    height: 94%;
+    border-radius: 28px;
+}
+
+.centik{
+    background-color:  black;
+    height: 25px;
+    width: 200px;
+    margin: auto;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.on-kamera{
+    background-color:  #383838;
+    height: 10px;
+    width: 10px;
+    border-radius: 10PX;
+}
+
+.hopalyor{
+    background-color:  #292929;
+    height: 10px;
+    width: 50px;
+    border-radius: 10PX;
 }
